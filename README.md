@@ -3,6 +3,10 @@
 基本的にこの記事をベースに実装しています: 
 https://note.com/shotovim/n/n5833578984bf
 
+#### Zettelkastenについて
+
+[x.com/ShinWorkout0207/status/1920637351174549656?ref\_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1920637351174549656%7Ctwgr%5E7f626af2b1d458d85fc35d418d57ad37a5e00069%7Ctwcon%5Es1\_&ref\_url=https%3A%2F%2Fnote.com%2Fiam\_shin%2Fn%2Fnb29cea186412](https://x.com/ShinWorkout0207/status/1920637351174549656?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1920637351174549656%7Ctwgr%5E7f626af2b1d458d85fc35d418d57ad37a5e00069%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fnote.com%2Fiam_shin%2Fn%2Fnb29cea186412)
+
 ### 初期設定の必要がないコミュニティプラグイン
 - AutoLinkTitle
 	- コピペするだけでタイトルをつけてくれます。
