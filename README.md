@@ -11,8 +11,9 @@ https://note.com/shotovim/n/n5833578984bf
 - DataView
 	- Notionみたいなテンプレートを作成できます。IndexNote参照
 - ExcaliBrain
-	- 
+	- 文章やテキストをビジュアルマップとして表示するために使用します。
 - Excalidraw
+	- obsidian上で手書きの図が作成できます。
 - recent-files-obsidian
 	- 最新のファイルを参照できます。
 - tag-wrangler
