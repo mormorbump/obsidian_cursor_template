@@ -31,6 +31,3 @@ https://note.com/shotovim/n/n5833578984bf
 	-  LINEからObsidianにメモを送信することができます。
 - [Obsidian\_to\_Anki](https://github.com/ObsidianToAnki/Obsidian_to_Anki)
 	- Anki側の設定でもアドオンの追加が必要です。
-- 
-- 
-	- 
