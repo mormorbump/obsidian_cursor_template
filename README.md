@@ -46,6 +46,10 @@ https://note.com/shotovim/n/n5833578984bf
 
 ### Tasksの用途
 
+以下を実装すればmarkdownに日付、時間、タスク名を書くと同期されます。
+[Obsidian と Google カレンダーを連携してシームレスなタスク管理を実現する｜松濤Vimmer](https://note.com/shotovim/n/n22400bc4ddb7)
+GCPのアカウントを作成し、Google Calender APIの有効
+
 ### Cursor(AIエディタ)の役割
 
 - 用意された複数の記事を1つのファイルにまとめる
