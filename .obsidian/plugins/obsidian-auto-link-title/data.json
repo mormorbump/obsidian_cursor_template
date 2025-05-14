@@ -4,7 +4,7 @@
   "linkRegex": {},
   "linkLineRegex": {},
   "imageRegex": {},
-  "enhanceDefaultPaste": false,
+  "enhanceDefaultPaste": true,
   "shouldPreserveSelectionAsTitle": false,
   "enhanceDropEvents": true,
   "websiteBlacklist": "",
