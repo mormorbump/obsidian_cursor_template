@@ -65,4 +65,6 @@ GCPのアカウントを作成し、Google Calender APIの有効化、OAuthの�
 - Ankiデッキを自動で作成
 - Slidev用のスライドを自動で作成
 
-### Obsidian Mobileの対応
+### モバイル版Obsidianの対応
+各端末で設定する必要があります: 
+[スマホのObsidianをGitで同期(2024.11)](https://zenn.dev/ishikawa096/articles/158246fc5a5d62)
