@@ -64,3 +64,5 @@ GCPのアカウントを作成し、Google Calender APIの有効化、OAuthの�
 - 記事のタグづけを一貫性を持って行う
 - Ankiデッキを自動で作成
 - Slidev用のスライドを自動で作成
+
+### Obsidian Mobileの対応
