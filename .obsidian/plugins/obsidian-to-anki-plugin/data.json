@@ -1,0 +1,100 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "基本": "",
+      "基本 (文字入力解答)": "",
+      "基本 (裏表反転カード付き)": "",
+      "基本 (裏表反転カード追加可能)": "",
+      "画像穴埋め問題": "",
+      "穴埋め問題": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "基本": "表面",
+      "基本 (文字入力解答)": "表面",
+      "基本 (裏表反転カード付き)": "表面",
+      "基本 (裏表反転カード追加可能)": "表面",
+      "画像穴埋め問題": "穴埋め箇所",
+      "穴埋め問題": "Text"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {},
+    "FOLDER_TAGS": {},
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "",
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    },
+    "IGNORED_FILE_GLOBS": [
+      "**/*.excalidraw.md"
+    ]
+  },
+  "Added Media": [],
+  "File Hashes": {
+    "Zettelkasten/Zettelkastenの運用/README.md": "01faaf66e300afc872f26b9cb26315f2",
+    "Zettelkasten/LiteratureNote/謙互-オンラインゲームを支える技術 ―壮大なプレイ空間の舞台裏 WEB+DB PRESS plus.md": "b786f51135dea1e82ea20faf1a09de63",
+    "Zettelkasten/LiteratureNote/真哉-Pythonで学ぶあたらしい統計学の教科書.md": "0f3b7bb61df424d755f8bf32ab8aaa12",
+    "Zettelkasten/LiteratureNote/師匠ラストラム村田さんのから教わったこと① - 「時代とタイアップ」｜宍戸亮太 - 株式会社RED代表取締役.md": "2c1a840bf63a46174881a20292984933",
+    "Zettelkasten/LiteratureNote/大地-エンジニアリング組織論への招待　～不確実性に向き合う思考と組織のリファクタリング.md": "e2fb4f8fe7897083d0c931866673868f",
+    "Zettelkasten/LiteratureNote/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md": "b48bf76619d0a0b8864454ea08dd49c1",
+    "Zettelkasten/LiteratureNote/允宣-ドメイン駆動設計入門 ボトムアップでわかる！ドメイン駆動設計の基本.md": "9e473e7b31975ac0a6fba499664eccbf",
+    "Zettelkasten/LiteratureNote/ジャズ理論への招待.md": "1270bd57242cf68b9359cf210e5d6406",
+    "Zettelkasten/LiteratureNote/Turnstile – TURNSTILE \"NEVER ENOUGH\" LIVE AT THE WYMAN PARK DELL - BALTIMORE, MD (FULL SHOW).md": "9b70e7d5eb5d86ed85e9c17949fe487d",
+    "Zettelkasten/LiteratureNote/Redditに本人降臨したMura Masaの発言まとめ（和訳）.md": "2ea68facf7fa1e8d6532146d6986c37b",
+    "Zettelkasten/LiteratureNote/ObsidianToAnkiObsidian_to_Anki Script to add flashcards from textmarkdown files to Anki.md": "32ca0750c907a9e45e015c936ee3f647",
+    "Zettelkasten/LiteratureNote/Briefing Document Chop Suey プラグイン レビュー.md": "1e41dd65040119526fc25b526aef5cec",
+    "Zettelkasten/IndexNote/clippings data.md": "6ee01693a51648d5c8a7854bf87567d4",
+    "Zettelkasten/FleetingNote/2025-05-15-561038162462245218.md": "d80a0a773fbdf513fd519cdebdff636e",
+    "Template/PermanentNote.md": "e187a41c38de33c5667c65b0b6cdd2f3",
+    "Template/FleetingNote.md": "c86ac80297cadfc8610c6fc37b0b9d03",
+    "Tasks/Task.md": "185a82b2babb20f6188291fd87a02095",
+    "Memo(Thino)/2025-05-14.md": "0adb6263b145cb0b6f0b9ceef6fd7b5e",
+    "Memo(Thino)/2025-05-13.md": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "fields_dict": {
+    "基本": [
+      "表面",
+      "裏面"
+    ],
+    "基本 (文字入力解答)": [
+      "表面",
+      "裏面"
+    ],
+    "基本 (裏表反転カード付き)": [
+      "表面",
+      "裏面"
+    ],
+    "基本 (裏表反転カード追加可能)": [
+      "表面",
+      "裏面",
+      "任意の入力で反転カード追加"
+    ],
+    "画像穴埋め問題": [
+      "穴埋め箇所",
+      "画像",
+      "ヘッダー",
+      "裏面追記",
+      "コメント"
+    ],
+    "穴埋め問題": [
+      "Text",
+      "裏面追記"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "amazonRegion": "japan",
+  "highlightsFolder": "Zettelkasten/LiteratureNote",
+  "lastSyncMode": "amazon",
+  "isLoggedIn": true,
+  "syncOnBoot": false,
+  "downloadBookMetadata": false,
+  "lastSyncDate": "2025-05-14T21:28:25.585Z",
+  "fileTemplate": "---\ntags: kindle\n---\n\n# {{title}}\n{% if imageUrl %}![|300]({{ imageUrl | replace(\"._SY160\", \"\") }}){% endif %}\n## Metadata\n{% trim %}\n{% if authorUrl %}\n* Author: [{{author}}]({{authorUrl}})\n{% elif author %}\n* Author: [[{{author}}]]\n{% endif %}\n{% if asin %}* ASIN: {{asin}}{% endif %}\n{% if isbn %}* ISBN: {{isbn}}{% endif %}\n{% if pages %}* Pages: {{pages}}{% endif %}\n{% if publication %}* Publication: {{publication}}{% endif %}\n{% if publisher %}* Publisher: {{publisher}}{% endif %}\n{% if url %}* Reference: {{url}}{% endif %}\n{% if appLink %}* [Kindle link]({{appLink}}){% endif %}\n{% endtrim %}\n\n## Highlights\n{{highlights}}"
+}

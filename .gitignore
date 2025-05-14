@@ -1,0 +1,40 @@
+# to exclude Obsidian's settings (including plugin and hotkey configurations)
+# .obsidian/
+
+# OR only to exclude workspace cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/*-plugins.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/appearance.json
+
+# exclude business notes
+4[0-9]_*/
+
+# Add below lines to exclude OS settings and caches
+.trash/
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Sensitive information (might want to ignore or use env variables)
+credentials.json
+token.json

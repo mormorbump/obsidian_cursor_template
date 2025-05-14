@@ -1,0 +1,42 @@
+name: Sync Tasks to Google Calendar
+
+on:
+  push:
+    paths:
+      - 'Tasks/**/*.md'
+    branches:
+      - main
+  workflow_dispatch:  # 手動実行用
+
+jobs:
+  sync-calendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            Tasks
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib pyyaml
+
+      - name: Setup Google Calendar credentials
+        run: |
+          echo "${{ secrets.GOOGLE_CALENDAR_CREDENTIALS }}" > credentials.json
+        
+      - name: Process Tasks and Update Calendar
+        env:
+          GOOGLE_CALENDAR_TOKEN: ${{ secrets.GOOGLE_CALENDAR_TOKEN }}
+        run: |
+          python .github/scripts/sync_calendar.py 
