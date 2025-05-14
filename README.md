@@ -17,8 +17,9 @@ https://note.com/shotovim/n/n5833578984bf
 - tag-wrangler
 	- 同名のタグを一括検索、一括編集などができます。
 - templater-obsidian
-	- テンプレートを作成することがd
+	- markdownのテンプレートを作成することができます。Template参照
 - obsidian-memos(Thino)
+	- XライクのUIでメモを作成することができます。Memo(Thino)以下に格納
 
 ### 初期設定が必要なコミュニティプラグイン
 
@@ -43,7 +44,7 @@ https://note.com/shotovim/n/n5833578984bf
 [\[Obsidian\] 結局行き着いた .gitignore｜しょっさん](https://note.com/sho7650/n/nbbc6976103ff)
 
 
-
+### Tasksの用途
 
 ### Cursor(AIエディタ)の役割
 
