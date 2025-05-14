@@ -7,13 +7,17 @@ https://note.com/shotovim/n/n5833578984bf
 - AutoLinkTitle
 	- コピペするだけでタイトルをつけてくれます。
 - Calender
-	- カレンダーが見れます。Memo(Thino)とひm
+	- カレンダーが見れます。Memo(Thino)と紐づきます。
 - DataView
+	- Notionみたいなテンプレートを作成できます。IndexNote参照
 - ExcaliBrain
 - Excalidraw
 - recent-files-obsidian
+	- 最新のファイルを参照できます。
 - tag-wrangler
+	- 同名のタグを一括検索、一括編集などができます。
 - templater-obsidian
+	- テンプレートを作成することがd
 - obsidian-memos(Thino)
 
 ### 初期設定が必要なコミュニティプラグイン
