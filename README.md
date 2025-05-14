@@ -1,6 +1,6 @@
 ## Obsidian × Cursorテンプレート
 
-基本的にこの記事をベースに実装しています。
+基本的にこの記事をベースに実装しています: 
 https://note.com/shotovim/n/n5833578984bf
 
 ### 初期設定の必要がないコミュニティプラグイン
@@ -41,14 +41,16 @@ https://note.com/shotovim/n/n5833578984bf
 	- Ankiのメリットはこちら [Obsidianと連携する暗記アプリ、本当にAnkiでいいのか検証してみた｜けぽ](https://note.com/kepoorz/n/n6f8f72da106d)
 
 ### gitignoreのルール
-参考
+参考: 
 [\[Obsidian\] 結局行き着いた .gitignore｜しょっさん](https://note.com/sho7650/n/nbbc6976103ff)
 
 
 ### Tasksの用途
 
 以下を実装すればmarkdownに日付、時間、タスク名を書くと同期されます。
+
 [Obsidian と Google カレンダーを連携してシームレスなタスク管理を実現する｜松濤Vimmer](https://note.com/shotovim/n/n22400bc4ddb7)
+
 GCPのアカウントを作成し、Google Calender APIの有効化、OAuthの有効化などを行う必要があるため、結構やることが多いです。
 
 ### Cursor(AIエディタ)の役割
