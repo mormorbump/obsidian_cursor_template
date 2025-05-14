@@ -38,6 +38,7 @@ https://note.com/shotovim/n/n5833578984bf
 	-  LINEからObsidianにメモを送信することができます。
 - [Obsidian\_to\_Anki](https://github.com/ObsidianToAnki/Obsidian_to_Anki)
 	- Anki側の設定でもアドオンの追加が必要です。
+	- Ankiのメリットはこちら [Obsidianと連携する暗記アプリ、本当にAnkiでいいのか検証してみた｜けぽ](https://note.com/kepoorz/n/n6f8f72da106d)
 
 ### gitignoreのルール
 参考
@@ -48,7 +49,7 @@ https://note.com/shotovim/n/n5833578984bf
 
 以下を実装すればmarkdownに日付、時間、タスク名を書くと同期されます。
 [Obsidian と Google カレンダーを連携してシームレスなタスク管理を実現する｜松濤Vimmer](https://note.com/shotovim/n/n22400bc4ddb7)
-GCPのアカウントを作成し、Google Calender APIの有効
+GCPのアカウントを作成し、Google Calender APIの有効化、OAuthの有効化などを行う必要があるため、結構やることが多いです。
 
 ### Cursor(AIエディタ)の役割
 
