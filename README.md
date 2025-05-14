@@ -31,3 +31,13 @@ https://note.com/shotovim/n/n5833578984bf
 	-  LINEからObsidianにメモを送信することができます。
 - [Obsidian\_to\_Anki](https://github.com/ObsidianToAnki/Obsidian_to_Anki)
 	- Anki側の設定でもアドオンの追加が必要です。
+
+### Cursor(AIエディタ)の役割
+
+- 用意された複数の記事を1つのファイルにまとめる
+- 出力されたファイルをアップデートする
+- ファイル同士を紐づける
+- Kindleなどの書籍引用部分を補足する(理解度テストを作ったり)
+- 記事のタグづけを一貫性を持って行う
+- Ankiデッキを自動で作成
+- Slidev用のスライドを自動で作成
